@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div id="app-box">
+        <h1>ToDo App</h1>
+
+        <input type="text" name="new-task-name" id="new-task-name"> <button id="button" onclick="criarNovaTarefa()">Enviar</button>
+
+        <div id="task-box">
+            <ul id="task-list"></ul>
+        </div>
+    </div>
+
+    <button id="btnSupport"><span class="material-icons">settings</span></button>
+
+    <div id="divKeyblinds">
+        <h2>Lista de atalhos</h2>
+        
+        <ul id="keyblindsList">
+            <li><strong>Delete / Ctrl + Backspace:</strong> Deletar tarefas concluidas</li>
+            <li><strong>Enter:</strong> Criar uma tarefa nova</li>
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
